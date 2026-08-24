@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="ig" x1="20" y1="52" x2="44" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="ir" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="#0D0D14"/>
+  <rect x="1.25" y="1.25" width="61.5" height="61.5" rx="13.75" stroke="url(#ir)" stroke-width="1.5"/>
+  <!-- Diamond spark -->
+  <path d="M32 10 L38.5 17 L32 24 L25.5 17 Z" fill="url(#ig)"/>
+  <!-- The "I" stem -->
+  <rect x="28" y="29" width="8" height="25" rx="4" fill="url(#ig)"/>
+</svg>
